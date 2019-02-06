@@ -1,0 +1,82 @@
+h1 {
+	style="color: #5e9ca0;
+}
+h2 {
+	style="color: #2e6c80;
+}
+
+
+
+.topnav {
+  overflow: hidden;
+  background-color: #e9e9e9;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  background-color: #2d3e4f;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav input[type=text] {
+  float: right;
+  padding: 6px;
+  margin-top: 8px;
+  margin-right: 16px;
+  border: none;
+  font-size: 17px;
+}
+
+
+
+table {
+	font-family: arial, sans-serif;
+	border-collapse: collapse;
+	width: 70%;
+}
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 2px;
+}
+
+
+
+.qna tr:nth-child(4n+1) {
+    background-color: #dddddd;
+}
+.qna tr:nth-child(4n+2) {
+    background-color: #dddddd;
+}
+
+
+/* Fixed Sidebar */
+.sidenav {
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    display: block;
+}
+.main {
+    margin-left: 250px; /* = width of sidenav */
+    padding: 0px 10px;
+}
